@@ -1,0 +1,20 @@
+{
+  "name": "sample-http",
+  "version": "1.0.0",
+  "description": "A Simple project to run HTTP Requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "http",
+    "nodejs",
+    "simple",
+    "http"
+  ],
+  "author": "Nugraha",
+  "license": "ISC",
+  "dependencies": {
+    "http": "^0.0.1-security"
+  }
+}

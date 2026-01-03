@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+</head>
+<body>
+  <h1>Age Calculator</h1>
+  <input type="date" id="birthday"/>
+  <button onclick="alertAge()">Calculate</button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <script>
+    function alertAge() {
+      var age = moment().diff(moment(document.getElementById('birthday').value), 'years');
+      alert("You are " + age + " years old");
+    }
+  </script>
+</body>
+</html>
